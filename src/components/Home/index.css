@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.app-home-container {
+  padding: 30px;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+}
+.text-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10%;
+}
+.heading-home {
+  font-size: 44px;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.home-paragraph {
+  font-size: 18px;
+  font-family: 'roboto';
+}
+
+.home-img {
+  height: 450px;
+  width: 700px;
+}
+#btn {
+  height: 30px;
+  width: 120px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.app-container {
+  padding: 30px;
+  height: 100vh;
+}
+.login-page-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-page-img {
+  height: 500px;
+  width: 600px;
+}
+.login-page-log {
+  height: 60px;
+  width: 120px;
+  margin-left: inherit;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+.input {
+  height: 35px;
+  width: 220px;
+  margin-bottom: 20px;
+  background-color: #d7dfe9;
+  border-style: none;
+}
+.form {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbfbf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.button {
+  text-align: center;
+}
+.btn {
+  height: 35px;
+  width: 220px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 4px;
+  border-color: none;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+.error-text-paragraph {
+  font-size: 12px;
+  color: red;
+  font-family: 'roboto';
+  margin-top: -10px;
+}
